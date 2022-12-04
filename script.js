@@ -16,25 +16,25 @@ Create a function that palys a single round of Rock Paper Scissors
 -Return a string "You lose! Paper Beats rock"
 -Make case insensitive
 
-if playerselection = computerselection
-- print the string "tie" 
+    if playerselection = computerselection
+    - print the string "tie" 
 
-if playerselection is rock
-- (computerselection scissors you win)
-- (computer selection paper you lose)
+    if playerselection is rock
+    - (computerselection scissors you win)
+    - (computer selection paper you lose)
 
-if playerselection is paper
-- (computerselection rock? you win)
-- (computerselection scissors? you lose)
+    if playerselection is paper
+    - (computerselection rock? you win)
+    - (computerselection scissors? you lose)
 
-if playerselection is scissors
-- (computerselection paper? you win)
-- (computerselection rock? you lose)
+    if playerselection is scissors
+    - (computerselection paper? you win)
+    - (computerselection rock? you lose)
 
-else(print" That's not a weapon!)
+    else(print" That's not a weapon!)
 
-Use prompt() to get user input
-*/
+    Use prompt() to get user input
+    */
 
 function getComputerChoice(){
     
